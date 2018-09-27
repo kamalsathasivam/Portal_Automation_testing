@@ -1,0 +1,12 @@
+browser:
+  firefox: firefox
+  chrome: chrome
+  safari: safari
+
+endpoint:
+  qa: https://qa.harvestmark.com/users/sign_in
+  stage: https://staging.harvestmark.com/users/sign_in
+  prod: https://portal.harvestmark.com/users/sign_in
+
+
+

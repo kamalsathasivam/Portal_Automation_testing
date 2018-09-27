@@ -1,0 +1,30 @@
+login_credentials:
+  
+  fail_if_both_invalid:
+    email: dev.yottmark.com
+    password: pass
+
+  fail_if_invalid_email:
+    email: dev@yotta
+    password: bbb123
+
+  fail_if_invalid_password:
+    email: dev@yottamark.com
+    password: bbb
+
+  fail_if_empty_email:
+    email:
+    password: bbb123
+
+  fail_if_empty_password:
+    email: dev@yottamark.com
+    password: 
+
+  fail_if_both_empty:
+    email: 
+    password: 
+
+  success_if_both_valid:
+    email: dev@yottamark.com
+    password: bbb123
+    message: Welcome, Ryan.

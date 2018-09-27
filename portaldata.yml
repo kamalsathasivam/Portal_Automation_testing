@@ -1,0 +1,24 @@
+users:
+  dev: dev@yottamark.com
+  devpwd: bbb123
+
+  admin: admin@yottamark.com
+  adminpwd: bbb123
+
+
+insights:
+  markets: Markets
+  ratings: Ratings
+  containers: Containers
+  devices: Devices
+  programs: Programs
+  specifications: Specifications
+  insights_products: 'Insights Products'
+  locationa: Locations
+  dc_inspections: 'DC Inspection'
+  uploads: Uploads
+  watched_products: 'Watched Products'
+  edit_onspections: 'Edit Inspections'
+  supplier_contacts: 'Supplier Contacts'
+  inspection_minimums: 'Inspection Minimums'
+

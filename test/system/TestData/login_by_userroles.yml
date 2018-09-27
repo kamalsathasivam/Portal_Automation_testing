@@ -1,0 +1,9 @@
+login_by_userroles:
+  ym_admin:
+    link1: companies
+    link2: code explorer
+
+  pti_admin_user:
+    validation1: company
+    link: history
+    validation2: Ratings

@@ -1,0 +1,8 @@
+This file is used for documentation
+
+https://saucelabs.com/resources/articles/selenium-tips-css-selectors
+
+driver.manage.timeouts.implicit_wait = 10
+
+
+
