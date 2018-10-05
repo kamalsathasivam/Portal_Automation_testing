@@ -1,22 +1,21 @@
-browser:
-  firefox: firefox
-  chrome: chrome
-  safari: safari
+portalconfig:
 
-endpoint:
-  testurl: https://qa.harvestmark.com/users/sign_in
-  qa: https://qa.harvestmark.com/users/sign_in
-  stage: https://staging.harvestmark.com/users/sign_in
-  prod: https://portal.harvestmark.com/users/sign_in
+  browser:
+    firefox: firefox
+    chrome: chrome
+    safari: safari
 
-admin_login_credentials:
-  email: dev@yottamark.com
-  password: bbb123
+  endpoint:
+    testurl: https://staging.harvestmark.com/users/sign_in
 
-pti_admin_user:
-  email: prasadfreshfarms@river.com
-  password: w@nted106
+  admin_login_credentials:
+    email: dev@yottamark.com
+    password: bbb123
 
-pti_user:
-  email: prcompany@freshfarms.com
-  password: test12
+  pti_admin_user:
+    email: ptiuser@mm.com
+    password: test123
+
+  pti_user:
+    email: pti7@monterey.com
+    password: test123

@@ -1,0 +1,27 @@
+portal_modules_visibility:
+
+    ym_admin_user:
+        companies: Companies
+        code_explorer: Code Explorer
+        tim_explorer: TIM Explorer
+        blockchain: Blockchain
+        form_Submissions: Form Submissions
+        my_forms: My Forms
+        my_reports: My Reports
+        batches: Batches
+        insights: Insights
+        gtin_manager: GTIN Manager
+        pti: PTI
+        settings: Settings
+
+    pti_admin_user:
+        blockchain: Blockchain
+        gtin_manager: GTIN Manager
+        pti: PTI
+        settings: Settings
+
+    pti_user:
+        blockchain: Blockchain
+        gtin_manager: GTIN Manager
+        pti: PTI
+        settings: Settings
