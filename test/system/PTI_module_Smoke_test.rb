@@ -17,21 +17,21 @@ describe "Test whether PTI and its", js: true, type: :feature do
   
   before :each do
     
-    visit portal_url
+      visit portal_url
 
-    page.driver.browser.manage.window.maximize
+      page.driver.browser.manage.window.maximize
 
-    # Login to the portal
-  	page.fill_in 'user_email', with: login_email
+      # Login to the portal
+    	page.fill_in 'user_email', with: login_email
 
-	page.fill_in 'user_password', with: login_password
-	
-	click_on 'sign_in'
-	
-	puts 'Logged-in successfully'
+  	  page.fill_in 'user_password', with: login_password
+  	
+  	  click_on 'sign_in'
+  	
+  	  puts 'Logged-in successfully'
 
-    # Find and click on the PTI module link
-    click_link 'PTI'
+      # Find and click on the PTI module link
+      click_link 'PTI'
     
   end
 
